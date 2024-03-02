@@ -5557,7 +5557,7 @@ size = Vector2(64, 64)
 size = Vector2(64, 64)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j46ou"]
-size = Vector2(64, 117)
+size = Vector2(59, 123)
 
 [node name="Node2D" type="Node2D"]
 
@@ -5645,7 +5645,7 @@ You can copy from demo_scene_class.tscn if you get stuck, but try to do it on yo
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(736, 139.5)
+position = Vector2(735.5, 142.5)
 shape = SubResource("RectangleShape2D_j46ou")
 
 [connection signal="pressed" from="OpenDoorButton" to="ForegroundTilemap" method="_on_open_door_button_pressed"]
